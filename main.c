@@ -2,9 +2,9 @@
 #include <math.h>
 
 int main () {
-    int a = 4, b = 2;
-    int resultado = a/b;
-    printf("%d\n", resultado);
+    int a = 5, b = 3;
+    double media = (a + b) / 2.0;
+    printf("A = %d, b = %d, media = %.2lf\n", a, b, media);
     return 0;
 }
 
